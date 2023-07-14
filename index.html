@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./icon/cloudy.png" type="image/svg">
+    <script src="./jQuery/jquery-3.6.4.min.js"></script>
+    <title>Weather App</title>
+</head>
+<body>
+
+   <section>
+    <div class="container">
+        <div class="app-name">
+            <p>Weather App</p>
+        </div>
+        <div class="inputs">
+            <input type="text" id="location-input" placeholder="Loaction..." class="location-input">
+            <input type="button" id="btn" class="get" value="Get">
+            <div class="or">OR</div>
+            <input class="get-location" type="button" value="Get Loaction" id="get-location">
+        </div>
+    </div>
+    <div>
+        <div class="display-content">
+            <img src="./cloud-solid.svg" id="icon">
+            <div class="temperature">
+                <span id="temp-dummy"></span>
+                <span id="unit">&#176</span>
+                <span class="celsius">C</span>
+            </div>
+            <div class="date"></div>
+            <div class="time"></div>
+            <div class="weather-status" id="weather-status"></div>
+            <div class="location-city" id="location-city"></div>
+            <div class="sunrice"></div>
+            <div class="sunset">gg</div>
+        </div>
+    </div>
+   </section>
+<script src="./wheater.js"></script>
+</body>
+</html>

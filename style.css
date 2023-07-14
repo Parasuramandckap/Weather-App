@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma,
+        Geneva, Verdana, sans-serif
+}
+
+body {
+    background:linear-gradient(to right, #045b61, #021c55);
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    margin-top: 100px;
+    animation: pulse 2s ease-out;
+}
+
+.container .app-name{
+    color: #293251;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.container .inputs {
+    text-align: center;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.container .location-input {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    height: 38px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 60%;
+    font-size: 16px;
+    
+}
+.inputs{
+    padding-top: 10px;
+}
+.or{
+    padding-top: 20px;
+    color: #293251;
+    font-weight: bold;
+}
+.get-location{
+    background-color: white;
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    height: 38px;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 16px;
+    background-color: #015b7e;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    outline: none;
+    border: #015b7e;
+    margin-top: 20px;
+}
+
+.location-input:focus {
+    box-shadow: 0px 0px 3px #015b7e;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-left: 140px;
+    /* margin-top: 40px; */
+}
+
+.display-content{
+    color: #293251;
+}
+
+.get{
+    width: 20%;
+    background-color: #015b7e;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    font-size: 16px;
+    outline: none;
+    border: #015b7e;
+    border-radius: 5px;
+    height: 39px;
+    cursor: pointer;
+}
+
+.temperature {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.celsius {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.weather-status{
+    font-size: 16px;
+    padding-top: 8px;
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+.location-city {
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+.display-content{
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 50px;
+    animation: pulse 2s ease-out;
+}
+@keyframes pulse {
+    0% {
+      background-color: #012c3d;
+    }
+    100% {
+      background-color: #ffffff;
+    }
+}
+
+.date{
+    font-size: 16px;
+    margin-left: 60px;
+    font-weight: bolder;
+}
+.time{
+    padding-top: 8px;
+    font-size: 16px;
+    margin-left: 60px;
+    font-weight: bolder;
+}
+.sunrice{
+        padding-top: 8px;
+    font-size: 16px;
+    margin-left: 60px;
+    font-weight: bolder;
+}
+.sunset{
+    padding-top: 8px;
+    font-size: 16px;
+    margin-left: 60px;
+    font-weight: bolder;
+}
